@@ -7,6 +7,7 @@ class ETL{
     ~ETL() { std::cout << "ETL destructor\n"; }
     void print();
   private:
+    int j;
     std::vector<int> v;
 };
 
